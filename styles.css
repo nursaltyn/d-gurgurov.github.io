@@ -48,7 +48,7 @@ body {
     }
   
   .top-button {
-      padding: 5px 10px;
+      padding: 5px 8px;
       background-color: #f2f2f2;
       border: 1px solid #ddd;
       border-radius: 5px;
@@ -56,5 +56,6 @@ body {
       color: #333;
       flex: 1; /* Distribute available space evenly */
       text-align: center; /* Center the button text */
+      margin-right: 0.1cm;
     }
   
