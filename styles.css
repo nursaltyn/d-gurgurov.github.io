@@ -51,4 +51,13 @@ body {
       text-align: center; /* Center the button text */
       margin-right: 0.05em;
     }
+
+    .project-list {
+      list-style: none; /* Remove the bullet points */
+      padding: 0;
+    }
+    
+    .project-list li {
+      margin-bottom: 10px; /* Add space between project names */
+    }
   
