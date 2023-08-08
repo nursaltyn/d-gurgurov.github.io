@@ -10,34 +10,29 @@
   </header>
   
   <div class="content">
-
-    <!-- Dropdown menu -->
-    <select id="countryDropdown">
-      <option value="" disabled selected>Select a country</option>
-      <optgroup label="Russia">
-        <option value="russia_option1">Russia Option 1</option>
-        <option value="russia_option2">Russia Option 2</option>
-        <option value="russia_option3">Russia Option 3</option>
-      </optgroup>
-      <optgroup label="Germany">
-        <option value="germany_option1">Germany Option 1</option>
-        <option value="germany_option2">Germany Option 2</option>
-        <option value="germany_option3">Germany Option 3</option>
-      </optgroup>
-      <optgroup label="France">
-        <option value="france_option1">France Option 1</option>
-        <option value="france_option2">France Option 2</option>
-        <option value="france_option3">France Option 3</option>
-      </optgroup>
-    </select>
-
-    <!-- Embed the Plotly graph using an iframe -->
-    <iframe src="plotly_graph.html" width="800" height="600"></iframe>
-
     <img src="flower.jpeg" alt="Simple Flower" class="center-image">
     <p>This is a webpage for the software project on diagnosing literary characters with mental health disorders</p>
     <p>By Daniil Gurgurov, Nursulu Sagimbayeva, Antonia Wächter & Asmaa Ibrahim</p>
     
+    <!-- Dropdown menu -->
+    <div class="dropdown">
+      <button class="dropbtn">Projects</button>
+      <div class="dropdown-content">
+        <a href="#">SoftPrSoSe 2023</a>
+        <!-- Add more project options here -->
+        <div class="dropdown">
+          <button class="dropbtn">Countries</button>
+          <div class="dropdown-content">
+            <a href="#">Russia</a>
+            <a href="#">Germany</a>
+            <a href="#">France</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Embed the Plotly graph using an iframe -->
+    <iframe src="plotly_graph.html" width="800" height="600"></iframe>
   </div>
   
   <footer>
