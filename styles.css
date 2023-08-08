@@ -23,7 +23,7 @@ body {
   }
 
    .icon {
-        background: url('icon.png');
+        background: url('https://icons8.com/icon/HMYYADiTu5UM/puzzle');
         height: 20px;
         width: 20px;
         display: block;
@@ -56,6 +56,6 @@ body {
       color: #333;
       flex: 1; /* Distribute available space evenly */
       text-align: center; /* Center the button text */
-      margin-right: 3px;
+      margin-right: 0.1em;
     }
   
