@@ -54,6 +54,7 @@ body {
       border-radius: 5px;
       text-decoration: none;
       color: #333;
-      margin-right: 0.1cm;
+      flex: 1; /* Distribute available space evenly */
+      text-align: center; /* Center the button text */
     }
   
