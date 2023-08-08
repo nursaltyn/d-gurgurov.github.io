@@ -49,6 +49,6 @@ body {
       color: #333;
       flex: 1; /* Distribute available space evenly */
       text-align: center; /* Center the button text */
-      margin-right: 0.1em;
+      margin-right: 0.2em;
     }
   
