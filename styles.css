@@ -34,10 +34,17 @@ body {
     height: auto;
   }
 
+  .center-iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    }
+
   .center-iframe {
     display: block;
-    margin: 0 auto;
-  }
+    }
 
   .top-buttons {
       display: flex;
@@ -64,8 +71,4 @@ body {
     
     .project-list li {
       margin-bottom: 10px; /* Add space between project names */
-    }
-
-    .center-iframe-container {
-      text-align: center;
     }
