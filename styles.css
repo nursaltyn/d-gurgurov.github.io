@@ -96,3 +96,7 @@ body {
       font-size: 18px; /* Adjust the font size for column names */
       font-weight: bold;
     }
+
+    .name-element {
+  text-align: center;
+    }
