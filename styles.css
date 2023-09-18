@@ -76,13 +76,14 @@ body {
     .column-container {
       display: flex;
       justify-content: center;
-      margin-top: 20px; /* Adjust the top margin for the columns */
+      margin: 10px;
     }
 
     .column {
       width: 25%; /* Adjust the width based on your design */
       padding: 10px;
       box-sizing: border-box;
+      text-align: center;
     }
 
     .column a {
