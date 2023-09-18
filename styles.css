@@ -72,3 +72,21 @@ body {
     .project-list li {
       margin-bottom: 10px; /* Add space between project names */
     }
+
+    .column {
+      float: left;
+      width: 25%; /* Adjust the width based on your design */
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    .column a {
+      display: block;
+      margin-bottom: 10px;
+      text-decoration: none;
+    }
+
+    .column h2 a {
+      font-size: 18px; /* Adjust the font size for column names */
+      font-weight: bold;
+    }
